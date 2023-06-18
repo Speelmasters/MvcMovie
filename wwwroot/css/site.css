@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+img {
+    
+    max-height: 200px;
+    width: 100px;
+}
+
+/* Styles for the body */
+body {
+    background-color: #f2f2f2; /* Set the background color for the body */
+}
+
+/* Styles for the header */
+header {
+    background-color: #258cfb; /* Set the background color for the header */
+    color: #fff; /* Set the text color for the header */
+}
